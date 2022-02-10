@@ -4,14 +4,23 @@ Mobile application with usage of Arduino Uno and pulse oximeter sensor.
 ## Project structure 
 
 
-Pulse oximeter and bluetooth module is connected to Arduino uno. Script prepared for uno board allows to measure pulse and send data through bluetooth to mobile app.
-Mobile app code contains with implemented user interface. In the center there is an animation of heartbeat with value of BPM. At the bottom, there is a connection status bar, when bluetooth device is not connected, proper information is displayed. Photo below shows first stage, when arduino board is not connected and there is no received data: 
+Pulse oximeter and bluetooth module is connected to Arduino uno. Script prepared for uno board allows to measure pulse and send data through bluetooth to mobile app. 
+Photo below shows physical connection of Arduino board and modules (bluetooth and pulse oximeter). 
+ - 1) Arduino board
+ - 2) Bluetooth module that allows connection with mobile phone
+ - 3) Pulse oximeter, user must keep the finger where the red led lamp lights up
+
+![image](https://user-images.githubusercontent.com/44081987/153500020-2137b582-c5b0-463d-a5a1-bcd0af34c927.png)
+
+
+## Mobile application
+
+Mobile app code implements user interface. In the center there is an animation of heartbeat with value of BPM. At the bottom, there is a connection status bar, when bluetooth device is not connected, proper information is displayed. Photo below shows first stage, when arduino board is not connected and there is no received data: 
 
 ![image](https://user-images.githubusercontent.com/44081987/153317212-5971da11-975b-426c-ad2f-5ce9640b47ac.png)
 
- 
 
-## User options 
+### User option buttons
 
 There are two buttons, at top right corner there is a button that allows to disconnect bluetooth connection between arduino and mobile phone. At left corner there is a button that allows user to choose paired bluetooth device form list of saved bluetooth devices, this is shown on photo below: 
 
