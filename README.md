@@ -15,7 +15,7 @@ Photo below shows physical connection of Arduino board and modules (bluetooth an
 
 ## Mobile application
 
-Mobile app code implements user interface. In the center there is an animation of heartbeat with value of BPM (heart beats per minute). At the bottom, there is a connection status bar, when bluetooth device is not connected, proper information is displayed. Photo below shows first stage, when arduino board is not connected and there is no received data: 
+Mobile app code implements user interface. In the center of the screen there is an animation of heartbeat with value of BPM (heart beats per minute). At the bottom, there is a connection status bar, proper information is displayed depending on connection status. Photo below shows first stage, when arduino board is not connected and there is no received data: 
 
 ![image](https://user-images.githubusercontent.com/44081987/153317212-5971da11-975b-426c-ad2f-5ce9640b47ac.png)
 
