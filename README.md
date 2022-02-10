@@ -26,7 +26,7 @@ There are two buttons, at top right corner there is a button that allows to disc
 
 ![image](https://user-images.githubusercontent.com/44081987/153317092-59f2fe82-5878-4556-a40c-ec95dc20d860.png)
 
-## Displaying received data from oximeter:
+## Presenting received data from oximeter:
 
 When arduino Uno is connected, bar that is located on the bottom of screen informs user about status of connection. When arduino is sending measured data to app, this data 
 is displayed next to BPM label, infomrming user about his pulse. 
